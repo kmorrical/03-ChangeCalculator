@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <title>Change Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>Change Calculator!</h1>
+	</header>
+
+	<div class="saleAmount">
+   		<p class="enterSale">How much is due for the sale?</p>
+		<input id="inputSale" type="text" oninput="myFunction()"><br>
+	</div>
+	
+	<div class="customerAmount">
+    	<p id="enterCustomer">How much has the customer given you?</p>
+    	<input id="inputCustomer" type="text" oninput="myFunction()"><br>
+  	</div>
+
+   	<div class="dollarsAmount">
+   		<h2>Dollars</h2>
+   		<p id="outputDollars"></p>
+   	</div>
+
+	<table>
+		<th><img src="http://i.imgur.com/lOmibo5.jpg" alt="quarterPic" /></th>
+		<th><img src="http://i.imgur.com/URtQ9zy.jpg" alt="dimePic" /></th>
+		<th><img src="http://i.imgur.com/IISUjZP.jpg" alt="nickelPic" /></th>
+		<th><img src="http://i.imgur.com/L8YYc4S.jpg" alt="pennyPic" /></th>
+		<tr class="changeHeadings">
+    		<td>Quarters</td>
+    		<td>Dimes</td> 
+    		<td>Nickels</td>
+    		<td>Pennies</td>
+  		</tr>
+ 		<tr>
+    		<td id="outputQuarters"></td>
+    		<td id="outputDimes"></td> 
+    		<td id="outputNickels"></td>
+   		 	<td id="outputPennies"></td>
+  		</tr>
+	</table>
+   	
+<script src="index.js"></script>
+</body>
+
+</html>
